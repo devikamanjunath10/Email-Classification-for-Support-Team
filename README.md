@@ -25,3 +25,42 @@ pip install -r requirements.txt
 ```
 python -m spacy download en_core_web_sm
 ```
+## Usage Instruction
+Usage Instructions
+This project masks Personally Identifiable Information (PII) from user-provided text such as emails or support tickets. It uses regular expressions and spaCy's NLP capabilities to detect and replace sensitive data with placeholder tags.
+ 
+## 1.Deploying on GitHub
+
+To deploy the project on GitHub, follow these steps:
+
+**1.Create a new GitHub repository**:
+   - Go to [GitHub](https://github.com) and create a new repository (e.g., `email-support-classifier`).
+
+**2.Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/email-support-classifier.git
+   cd email-support-classifier
+   ```
+**3.Push your project files to the repository:**
+```
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/your-username/email-support-classifier.git
+git push -u origin main
+```
+**4.Run your app locally or deploy it on a server**
+
+## 2 Deploying on Hugging face space
+
+**1.Create a new Hugging Face Space**
+
+**2.Upload your project files**
+
+**3.Ensure app.py has the Gradio interface**
+
+**4.Run your Hugging Face Space:**
+
+- Hugging Face will automatically run your app once the files are uploaded!
+
+
