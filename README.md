@@ -51,7 +51,7 @@ git push -u origin main
 ```
 **4.Run your app locally or deploy it on a server**
 
-## 2 Deploying on Hugging face space
+## 2.Deploying on Hugging face space
 
 **1.Create a new Hugging Face Space**
 
